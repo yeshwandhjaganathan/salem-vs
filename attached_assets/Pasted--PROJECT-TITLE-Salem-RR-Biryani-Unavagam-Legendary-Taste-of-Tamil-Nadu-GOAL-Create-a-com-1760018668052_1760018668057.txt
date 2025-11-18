@@ -1,0 +1,166 @@
+🎯 PROJECT TITLE:
+"Salem RR Biryani Unavagam – Legendary Taste of Tamil Nadu"
+
+🧱 GOAL:
+Create a complete, responsive, and animated restaurant website using ONLY
+👉 HTML  
+👉 CSS  
+👉 JavaScript  
+👉 Bootstrap 5  
+(No backend, no frameworks, no WordPress.)
+
+---
+
+🎨 DESIGN THEME:
+- Primary Color: #9f0008 (Strawberry Red)
+- Secondary Color: #fbaf2b (Gold)
+- Accent: #ffffff (White)
+- Font Family: "Poppins", "Lexend Deca", "Roboto"
+- Overall Look: Elegant, Traditional + Modern Restaurant Vibe
+- Smooth Animations, Light Effects, and Parallax backgrounds
+
+---
+
+📄 WEBSITE STRUCTURE:
+Create a **multi-page frontend website** with these pages:
+
+1️⃣ Home  
+2️⃣ About Us  
+3️⃣ Our Menu  
+4️⃣ Catering  
+5️⃣ Franchise  
+6️⃣ Gallery  
+7️⃣ Outlets  
+8️⃣ Contact Us  
+
+---
+
+💥 PAGE CONTENT REQUIREMENTS:
+
+🏠 **Home Page**
+- Entry animation: double-door open effect with logo fade-in.
+- Hero section: full-width background image with overlay text:
+  “Legendary Salem RR Biryani Unavagam”
+  “Traditionally Cooked with Love for 20+ Years”
+  → “Order Now” button scrolls to Contact section.
+- Include sticky navigation bar that changes background on scroll.
+
+👨‍🍳 **About Us**
+- Two-column layout:
+  - Left: image of chef or kitchen
+  - Right: about text + animated counters
+    (Years of Tradition, Happy Customers, Branches)
+- Add fade-up animation on scroll.
+
+🍗 **Our Menu**
+- Grid of Bootstrap cards (image, dish name, short description, price)
+- Hover zoom effect on images.
+- “View Full Menu” button → opens modal (simulated flipbook).
+
+🍽 **Catering**
+- Section with icons (Weddings, Corporate, Events)
+- Each item animates upward when scrolled into view.
+
+🏢 **Franchise**
+- Red background section with white text.
+- Simple form (Name, Email, Phone, Message)
+- JS validation (check empty fields only).
+
+🖼 **Gallery**
+- Responsive 3-column image gallery with hover zoom + lightbox effect.
+
+📍 **Outlets**
+- Google Maps embed + address list below.
+
+📞 **Contact Us**
+- Contact form (Name, Email, Message)
+- Display phone, email, and address.
+- Add social icons (Facebook, Twitter, Instagram, YouTube).
+- Background: gradient red → black with white text.
+
+⚙️ **Footer**
+- Dark red footer with small logo, quick links, and social icons.
+- “Back to Top” floating button (bottom-right) → smooth scroll animation.
+
+---
+
+💬 **FLOATING CHAT ICON (COMMON ACROSS PAGES)**
+- Bottom-left corner Messenger-style icon.
+- On click → show 3 circular buttons with smooth fade animation:
+  1. Contact Us
+  2. Instagram
+  3. Facebook
+
+---
+
+⚙️ **FUNCTIONAL REQUIREMENTS**
+✅ Sticky Navbar  
+✅ Smooth Scrolling  
+✅ Scroll-to-Top Button  
+✅ Section Fade / Slide Animations (use AOS.js or custom JS)  
+✅ Mobile Responsive Layout (Bootstrap grid)  
+✅ Contact form validation (front-end only)  
+✅ Modal open/close for Menu view  
+✅ Lightbox effect for Gallery  
+
+---
+
+📁 **FOLDER STRUCTURE**
+salemrrbiryani/
+│
+├── index.html
+├── about.html
+├── menu.html
+├── catering.html
+├── franchise.html
+├── gallery.html
+├── outlets.html
+├── contact.html
+│
+├── /assets/
+│   ├── /images/
+│   ├── /css/
+│   │    ├── style.css
+│   │    ├── responsive.css
+│   ├── /js/
+│        ├── main.js
+│        ├── animation.js
+│
+└── /fonts/
+
+---
+
+📚 **LIBRARIES ALLOWED**
+- Bootstrap 5 (CDN)
+- Font Awesome (icons)
+- Animate.css
+- AOS.js (scroll animations)
+- Vanilla JS / jQuery (optional for DOM interactions)
+
+---
+
+🎯 **DESIGN RULES**
+- Rounded corners on all cards & buttons (border-radius: 12px)
+- Subtle shadows and hover transitions
+- Smooth fade and slide animations (0.4s ease)
+- Consistent padding (p-4 minimum)
+- Use Bootstrap utilities for spacing and grid layout
+
+---
+
+📦 **DELIVERABLE**
+Generate clean, commented, production-ready HTML, CSS, JS code for a
+fully responsive front-end restaurant website (no backend).
+
+The output must include:
+✅ Entry animation  
+✅ Navbar + Responsive Menu  
+✅ All sections listed above  
+✅ Floating chat icon  
+✅ Scroll animations  
+✅ Footer + smooth scroll  
+
+---
+
+✨ PROJECT NAME:
+“Salem RR Biryani – The Legendary Taste of Tamil Nadu”
