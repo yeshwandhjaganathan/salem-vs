@@ -1,7 +1,7 @@
 // Footer.jsx
 import { Link } from 'react-router-dom'; // <-- changed to react-router-dom
 import { Facebook, Twitter, Instagram, Youtube } from 'lucide-react';
-
+import logo from "@assets/stock_images/logo4.png";
 export default function Footer() {
   const quickLinks = [
     { path: '/', label: 'Home' },
@@ -19,15 +19,20 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
-            <div className="flex items-center gap-3 mb-4">
-              <div className="w-12 h-12 bg-chart-2 rounded-full flex items-center justify-center text-xl font-bold text-primary">
-                VS
-              </div>
-              <span className="font-bold text-lg font-[Poppins]">Salem VS Biryani</span>
-            </div>
-            <p className="text-white/80 font-[Roboto]">
+<div className="flex items-center gap-2 mb-4">
+  <div className="w-56 h-56 md:w-60 md:h-60 ml-2 mt-1">
+    <img 
+      src={logo}
+      alt="Logo"
+      className="w-full h-full object-contain"
+      draggable="false"
+    />
+  </div>
+</div>
+
+            {/* <p className="text-white/80 font-[Roboto]">
               Traditionally cooked with love for 20+ years. Experience the legendary taste of Tamil Nadu.
-            </p>
+            </p> */}
           </div>
 
           <div>
