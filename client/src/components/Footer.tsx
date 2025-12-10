@@ -1,7 +1,7 @@
 // Footer.jsx
 import { Link } from 'react-router-dom'; // <-- changed to react-router-dom
 import { Facebook, Twitter, Instagram, Youtube } from 'lucide-react';
-import logo from "@assets/stock_images/logo4.png";
+import logo from "@assets/stock_images/logo6.png";
 export default function Footer() {
   const quickLinks = [
     { path: '/', label: 'Home' },

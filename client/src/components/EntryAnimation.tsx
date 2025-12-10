@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import logo from "@assets/stock_images/logo4.png";
+import logo from "@assets/stock_images/logo7.png";
 
 type EntryAnimationProps = {
   onComplete?: () => void;
