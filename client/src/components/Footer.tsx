@@ -100,7 +100,7 @@ export default function Footer() {
     © {new Date().getFullYear()} Salem VS Biryani Unavagam. All rights reserved.
   </p>
   <p className="text-white/60 font-[Roboto] mt-2">
-    Designed by{" "}
+  This platform is professionally managed and Designed by{" "}
     <a
       href="https://yeshwandhjs-portfolio.netlify.app/"   // ✅ just keep this line clean
       target="_blank"

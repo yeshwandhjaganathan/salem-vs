@@ -71,13 +71,22 @@ export default function Home() {
             </div>
 
             <div className="text-center">
-              <Button
-                size="lg"
+              <Button>
+                {/* size="lg"
                 className="bg-primary hover:bg-primary/90 text-white rounded-xl px-8"
                 onClick={() => setShowMenuModal(true)}
-                data-testid="button-view-full-menu"
-              >
-                View Full Menu
+                data-testid="button-view-full-menu"> */}
+                <div className="text-center">
+  <a
+    href="../menu"
+    className="inline-block bg-primary hover:bg-primary/90 text-white rounded-xl px-8 py-3 font-[Roboto] transition-colors"
+    data-testid="link-view-outlets"
+  >
+    View Our Menu
+  </a>
+</div>
+
+                
               </Button>
             </div>
           </div>
