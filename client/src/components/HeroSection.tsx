@@ -23,32 +23,40 @@ export default function HeroSection({
   };
 
   return (
-    <div className="relative h-screen flex items-center justify-center overflow-hidden">
-      <div
-        className="absolute inset-0 bg-cover bg-center"
-        style={{ backgroundImage: `url(${backgroundImage})` }}
+    <section
+      className="
+        relative
+        w-full
+        h-[650px] md:h-[750px] lg:h-[850px]
+        overflow-hidden
+      "
+    >
+      {/* HERO IMAGE */}
+      <img
+        src={backgroundImage}
+        alt="Hero"
+        className="absolute inset-0 w-full h-full object-cover object-center"
       />
-      <div className="absolute inset-0 bg-gradient-to-b from-black/60 via-black/40 to-black/60" />
 
-      <div className="relative z-10 text-center px-4 max-w-4xl mx-auto">
-        <h1
-          className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 font-[Poppins] animate-in fade-in slide-in-from-bottom-8 duration-700"
-          data-testid="text-hero-title"
-        >
+      {/* OVERLAY */}
+      <div className="absolute inset-0 bg-gradient-to-b from-black/25 via-black/10 to-black/25" />
+
+
+      {/* CONTENT */}
+      <div className="relative z-10 flex flex-col items-center justify-center h-full text-center px-4 max-w-4xl mx-auto">
+        <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-white mb-6 font-[Poppins]">
           {title}
         </h1>
-        <p
-          className="text-lg md:text-2xl text-white/90 mb-8 font-[Lexend_Deca] animate-in fade-in slide-in-from-bottom-8 duration-700 delay-150"
-          data-testid="text-hero-subtitle"
-        >
+
+        <p className="text-lg md:text-2xl text-white/90 mb-8 font-[Lexend_Deca]">
           {subtitle}
         </p>
-        {ctaText && (
+
+        {ctaText && ctaAction && (
           <Button
             size="lg"
-            className="bg-chart-2 hover:bg-chart-2/90 text-primary font-bold text-lg px-8 py-6 rounded-xl animate-in fade-in slide-in-from-bottom-8 duration-700 delay-300"
+            className="bg-chart-2 hover:bg-chart-2/90 text-primary font-bold px-8 py-6 rounded-xl"
             onClick={ctaAction}
-            data-testid="button-hero-cta"
           >
             {ctaText}
           </Button>
@@ -59,11 +67,10 @@ export default function HeroSection({
         <button
           onClick={handleScroll}
           className="absolute bottom-8 left-1/2 -translate-x-1/2 text-white animate-bounce"
-          data-testid="button-scroll-indicator"
         >
           <ChevronDown className="w-8 h-8" />
         </button>
       )}
-    </div>
+    </section>
   );
 }

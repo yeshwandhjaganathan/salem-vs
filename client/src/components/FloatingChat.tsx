@@ -9,14 +9,14 @@ export default function FloatingChat() {
       {isOpen && (
         <div className="absolute bottom-20 left-0 flex flex-col gap-3 animate-in fade-in slide-in-from-bottom-4 duration-300">
           <a
-            href="/contact"
+            href="tel:+919944746112"
             className="w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white hover:bg-chart-2 transition-all duration-300 shadow-lg"
             data-testid="button-chat-contact"
           >
             <Phone className="w-5 h-5" />
           </a>
           <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/salemvsbriyani/"
             target="_blank"
             rel="noopener noreferrer"
             className="w-12 h-12 bg-primary rounded-full flex items-center justify-center text-white hover:bg-chart-2 transition-all duration-300 shadow-lg"

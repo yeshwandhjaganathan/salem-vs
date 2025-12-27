@@ -3,12 +3,13 @@ import { Card } from '@/components/ui/card';
 
 export default function Outlets() {
   const outlets = [
-    {
-      name: 'Salem Main Branch',
-      address: '123 Main Road, Salem, Tamil Nadu 636001',
-      phone: '+91 9876543210',
+     {
+      name: 'Salem S.N.Patti Main Branch',
+      address: '9/8A, Trichy Main Road Seelanaickenpatti Salem – 636021',
+      phone: '+91 9876543212',
       hours: '11:00 AM - 11:00 PM',
     },
+    
     {
       name: 'Salem NBS Branch',
       address: '1/226, Klaninar Maligai Omalur Main Road New Bus Stand Salem, Tamil Nadu 636001',
@@ -21,12 +22,7 @@ export default function Outlets() {
       phone: '+91 9876543212',
       hours: '11:00 AM - 11:00 PM',
     },
-    {
-      name: 'Salem S.N.Patti Branch',
-      address: '9/8A, Trichy Main Road Seelanaickenpatti Salem – 636021',
-      phone: '+91 9876543212',
-      hours: '11:00 AM - 11:00 PM',
-    },
+   
     {
       name: 'Salem Tollgate Branch',
       address: '1-333 Kotagoundampatty Near Omalur Tollgate Salem – 636011',
@@ -52,21 +48,21 @@ export default function Outlets() {
             Visit us at any of our locations across Tamil Nadu
           </p>
 
-          <div className="mb-12">
-            <div className="w-full h-[400px] bg-muted rounded-xl overflow-hidden">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d125389.83314887583!2d78.06369844335938!3d11.664325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3babf1ccf52ef3d7%3A0x4166d7d7cfb1b809!2sSalem%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1234567890"
-                width="100%"
-                height="100%"
-                style={{ border: 0 }}
-                allowFullScreen
-                loading="lazy"
-                referrerPolicy="no-referrer-when-downgrade"
-                title="Salem VS Biryani Outlets Map"
-                data-testid="map-outlets"
-              />
-            </div>
-          </div>
+         <div className="mb-12">
+  <div className="w-full h-[400px] bg-muted rounded-xl overflow-hidden">
+    <iframe
+      src="https://www.google.com/maps?q=VS%20Biryani%20Salem&output=embed"
+      width="100%"
+      height="100%"
+      style={{ border: 0 }}
+      allowFullScreen
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+      title="Salem VS Biryani Outlets Map"
+    />
+  </div>
+</div>
+
 
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
             {outlets.map((outlet, index) => (

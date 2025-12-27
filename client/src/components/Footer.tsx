@@ -19,8 +19,8 @@ export default function Footer() {
       <div className="container mx-auto px-4">
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
           <div>
-<div className="flex items-center gap-2 mb-4">
-  <div className="w-56 h-56 md:w-60 md:h-60 ml-2 mt-1">
+<div className="flex justify-center mb-6">
+  <div className="w-40 h-40 md:w-48 md:h-48">
     <img 
       src={logo}
       alt="Logo"
@@ -30,9 +30,9 @@ export default function Footer() {
   </div>
 </div>
 
-            {/* <p className="text-white/80 font-[Roboto]">
-              Traditionally cooked with love for 20+ years. Experience the legendary taste of Tamil Nadu.
-            </p> */}
+            <p className="text-white/80 font-[Roboto]">
+              Traditionally cooked with love for 7+ years. Experience the legendary taste of Tamil Nadu.
+            </p>
           </div>
 
           <div>
@@ -64,7 +64,7 @@ export default function Footer() {
               >
                 <Facebook className="w-5 h-5" />
               </a>
-              <a
+              {/* <a
                 href="https://twitter.com"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -72,9 +72,9 @@ export default function Footer() {
                 data-testid="link-twitter"
               >
                 <Twitter className="w-5 h-5" />
-              </a>
+              </a> */}
               <a
-                href="https://instagram.com"
+                href="https://www.instagram.com/salemvsbriyani/"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="w-10 h-10 bg-white/10 rounded-full flex items-center justify-center hover:bg-chart-2 transition-all duration-300"
@@ -97,7 +97,7 @@ export default function Footer() {
 
        <div className="border-t border-white/10 pt-6 text-center">
   <p className="text-white/60 font-[Roboto]">
-    © {new Date().getFullYear()} Salem VS Biryani Unavagam. All rights reserved.
+    © {new Date().getFullYear()} Salem VS Biryani. All rights reserved.
   </p>
   <p className="text-white/60 font-[Roboto] mt-2">
   This platform is professionally managed and Designed by{" "}
