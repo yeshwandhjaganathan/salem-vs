@@ -22,7 +22,7 @@ export default function Navbar() {
     { path: '/about', label: 'About Us' },
     { path: '/menu', label: 'Our Menu' },
     { path: '/catering', label: 'Catering' },
-    { path: '/franchise', label: 'Franchise' },
+    // { path: '/franchise', label: 'Franchise' },
     { path: '/gallery', label: 'Gallery' },
     { path: '/outlets', label: 'Outlets' },
     { path: '/contact', label: 'Contact Us' },
